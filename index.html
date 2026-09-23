@@ -103,12 +103,14 @@
         </span>
     </button>
     <br> <br> <br>
-    <h1 style="text-align: center;">Achamos que você irá gostar desses:</h1>
+    <h2 class="text-center"> Achamos que você irá gostar desses:</h2>
+    <br>
+    <p class="text-center"> Por serem os mais famosos, pode ser do seu interesse!</p>
     <div class="container text-center">
         <div class="row">
             <div class="col">
                 <div class="card" style="width: 18rem; height: 25.7rem;">
-                    <img src="IMG/kilimanjaro.jpg" class="card-img-top" alt="..." style="height: 220px;">
+                    <img src="IMG/kilimanjaro.jpg" class="card-img-top" alt="..." style="height: 360px;">
                     <div class="card-body">
                         <h5 class="card-title"> Kilimanjaro
 
@@ -119,7 +121,7 @@
                         </span>
                         <h5 class="card-title">Bom para passear em qualquer época!</h5>
                         <p class="card-text">Para você que deseja encarar o desafio.</p>
-                        <button class ="btn btn-primary" data-bs-toggle ="modal" data-bs-target ="#modalKili">
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalKili">
                             Mais informações
                         </button>
                     </div>
@@ -127,7 +129,7 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem; height: 25.7rem;">
-                    <img src="IMG/Cordilheira dos Andes Card.jpg" class="card-img-top" alt="..." style="height: 220px;">
+                    <img src="IMG/Cordilheira dos Andes Card.jpg" class="card-img-top" alt="..." style="height: 167px;">
                     <div class="card-body">
                         <h5 class="card-title"> Cordilheira dos Andes
 
@@ -137,8 +139,8 @@
 
                         </span>
                         <h5 class="card-title">Dicas úteis para o passeio!</h5>
-                        <p class="card-text">Já se perguntou porque se chama Cordilheira dos Andes? </p>
-                        <button class ="btn btn-primary" data-bs-toggle ="modal" data-bs-target ="#modalCordi">
+                        <p class="card-text">Por que Cordilheira dos Andes? </p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCordi">
                             Mais informações
                         </button>
                     </div>
@@ -146,7 +148,7 @@
             </div>
             <div class="col">
                 <div class="card" style="width: 18rem;  height: 25.7rem;">
-                    <img src="IMG/Pico-do-Jaragua Vista.jpg" class="card-img-top" alt="..." style="height: 220px;">
+                    <img src="IMG/Pico-do-Jaragua Vista.jpg" class="card-img-top" alt="..." style="height: 170px;">
                     <div class="card-body">
                         <h5 class="card-title"> Pico do Jaraguá
 
@@ -156,7 +158,7 @@
                         </span>
                         <h5 class="card-title">O que tem de bom no Pico do Jaraguá?</h5>
                         <p class="card-text">Caso goste, é um passeio grátis!</p>
-                        <button class ="btn btn-primary" data-bs-toggle ="modal" data-bs-target ="#modalJara">
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalJara">
                             Mais informações
                         </button>
                     </div>
@@ -165,74 +167,83 @@
         </div>
     </div>
 
-    <div class ="modal fade" id ="modalKili">
-        <div class ="modal-dialog">
-            <div class ="modal-content">
-                <div class ="modal-header">
-                    <h5 class ="modal-title">Kilimanjaro</h5>
-                    <button type ="button" class ="btn-close" data-bs-dismiss ="modal"></button>
+    <div class="modal fade" id="modalKili">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Kilimanjaro</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-                <div class ="modal-body">
-                    <img src ="./IMG/KilimanjaroModal.webp" alt ="" style ="width: 467px; height: 250px;">
-                   <p>Por séculos, o Kilimanjaro foi cercado de lendas locais. A história moderna tomou um 
-                    rumo curioso em 1848, quando o missionário alemão Johannes Rebmann tornou-se o primeiro 
-                    europeu a avistar a montanha. Quando ele relatou à Real Sociedade Geográfica de Londres que 
-                    havia uma montanha coberta de neve quase na linha do Equador, a comunidade científica britânica 
-                    não acreditou. Eles riram do relato, afirmando que era impossível haver neve em uma região tão 
-                    quente e que Rebmann devia estar sofrendo de alucinações ou teria confundido quartzo brilhante 
-                    com gelo. A confirmação oficial só veio anos depois.</p>
+                <div class="modal-body">
+                    <img src="./IMG/KilimanjaroModal2.jpg" alt="" style="width: 467px; height: 280px;">
+                    <p>Por séculos, o Kilimanjaro foi cercado de lendas locais. A história moderna tomou um
+                        rumo curioso em 1848, quando o missionário alemão Johannes Rebmann tornou-se o primeiro
+                        europeu a avistar a montanha. Quando ele relatou à Real Sociedade Geográfica de Londres que
+                        havia uma montanha coberta de neve quase na linha do Equador, a comunidade científica britânica
+                        não acreditou. Eles riram do relato, afirmando que era impossível haver neve em uma região tão
+                        quente e que Rebmann devia estar sofrendo de alucinações ou teria confundido quartzo brilhante
+                        com gelo. A confirmação oficial só veio anos depois.</p>
 
                 </div>
-                <div class ="modal-footer">
-                    <button type ="button" class ="btn btn-secondary" data-bs-dismiss ="modal">Fechar</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class ="modal fade" id ="modalCordi">
-        <div class ="modal-dialog">
-            <div class ="modal-content">
-                <div class ="modal-header">
-                    <h5 class ="modal-title">Cordilheira dos Andes</h5>
-                    <button type ="button" class ="btn-close" data-bs-dismiss ="modal"></button>
+    <div class="modal fade" id="modalCordi">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cordilheira dos Andes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-                <div class ="modal-body">
-                    <img src ="./IMG/CordilheiraModal.jfif" alt ="" style ="width: 467px; height: 250px;">
-                    <p>A história humana nos Andes está profundamente ligada aos Incas, que construíram o maior 
-                        império da América pré-colombiana no século XV. Eles não apenas sobreviveram na altitude extrema, 
-                        mas prosperaram. Engenheiros brilhantes, os Incas criaram um sistema de terraços agrícolas (degraus nas montanhas) 
-                        para plantar alimentos e construíram a Trilha Inca, uma rede de estradas de pedra que conectava o império 
-                        através de picos e vales. O ápice desse domínio andino é a cidade sagrada de Machu Picchu, construída a
+                <div class="modal-body">
+                    <img src="./IMG/CordilheiraModal.jfif" alt="" style="width: 467px; height: 280px;">
+                    <p>A história humana nos Andes está profundamente ligada aos Incas, que construíram o maior
+                        império da América pré-colombiana no século XV. Eles não apenas sobreviveram na altitude
+                        extrema,
+                        mas prosperaram. Engenheiros brilhantes, os Incas criaram um sistema de terraços agrícolas
+                        (degraus nas montanhas)
+                        para plantar alimentos e construíram a Trilha Inca, uma rede de estradas de pedra que conectava
+                        o império
+                        através de picos e vales. O ápice desse domínio andino é a cidade sagrada de Machu Picchu,
+                        construída a
                         2.430 metros de altitude no topo de uma montanha.</p>
-                   
+
                 </div>
-                <div class ="modal-footer">
-                    <button type ="button" class ="btn btn-secondary" data-bs-dismiss ="modal">Fechar</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class ="modal fade" id ="modalJara">
-        <div class ="modal-dialog">
-            <div class ="modal-content">
-                <div class ="modal-header">
-                    <h5 class ="modal-title">Pico do Jaraguá</h5>
-                    <button type ="button" class ="btn-close" data-bs-dismiss ="modal"></button>
+    <div class="modal fade" id="modalJara">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pico do Jaraguá</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                 </div>
-                <div class ="modal-body">
-                    <img src ="./IMG/JaraguáModal.jpg" alt ="" style ="width: 467px; height: 250px;">
-                    <p>A história do Jaraguá começou bem antes de São Paulo se tornar uma metrópole. No final do século XVI, 
-                        a região tornou-se o primeiro ciclo do ouro do Brasil, antes mesmo das famosas descobertas em Minas Gerais.
-                        O explorador Afonso Sardinha encontrou ouro nos ribeirões do Jaraguá por volta de 1580. Ele escravizou povos 
-                        indígenas locais para extrair o minério, o que gerou violentos conflitos com os nativos que consideravam a 
-                        montanha um local sagrado. O ouro da região acabou se esgotando rapidamente no século XVII, mas as marcas da 
+                <div class="modal-body">
+                    <img src="./IMG/JaraguáModal.jpg" alt="" style="width: 467px; height: 280px;">
+                    <p>A história do Jaraguá começou bem antes de São Paulo se tornar uma metrópole. No final do século
+                        XVI,
+                        a região tornou-se o primeiro ciclo do ouro do Brasil, antes mesmo das famosas descobertas em
+                        Minas Gerais.
+                        O explorador Afonso Sardinha encontrou ouro nos ribeirões do Jaraguá por volta de 1580. Ele
+                        escravizou povos
+                        indígenas locais para extrair o minério, o que gerou violentos conflitos com os nativos que
+                        consideravam a
+                        montanha um local sagrado. O ouro da região acabou se esgotando rapidamente no século XVII, mas
+                        as marcas da
                         mineração ainda podem ser vistas em ruínas históricas na base da montanha.</p>
-                    
+
                 </div>
-                <div class ="modal-footer">
-                    <button type ="button" class ="btn btn-secondary" data-bs-dismiss ="modal">Fechar</button>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
                 </div>
             </div>
         </div>
@@ -246,6 +257,101 @@
 
         </div>
     </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">
+            Perguntas Frequentes
+        </h2>
+        <div class="accordion" id="faq">
+
+            <section>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#pergunta1">
+                            É preciso um guia para praticar essas atividades?
+                        </button>
+                    </h2>
+                    <div id="pergunta1" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body">
+                            Para iniciantes, sim, o acompanhamento de um guia ou instrutor é fundamental. 
+                            Enquanto em alguns parques o guia é obrigatório por lei, em outros ele é a sua 
+                            principal garantia de segurança contra clima extremo e acidentes.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#pergunta2">
+                            Como lidar com a altitude e o ar rarefeito?
+                        </button>
+                    </h2>
+                    <div id="pergunta2" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body">
+                            O segredo é a aclimatação gradual, subindo um pouco a cada dia para o corpo se 
+                            adaptar à falta de oxigênio. Isso é vital em destinos de alta altitude como os 
+                            Andes e o Kilimanjaro para evitar o mal de montanha.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#pergunta3">
+                            Qual deve ser o preparo físico para começar no montanhismo?
+                        </button>
+                    </h2>
+                    <div id="pergunta3" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body">
+                            O foco principal deve ser o treino aeróbico de resistência (como corrida e caminhada) 
+                            combinado com o fortalecimento muscular das pernas, core e costas, que são as 
+                            áreas mais exigidas ao carregar mochilas pesadas em subidas.
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <br>
+
+            <section>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#pergunta4">
+                            Como praticar escalada morando em uma grande cidade?
+                        </button>
+                    </h2>
+                    <div id="pergunta4" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body">
+                            A melhor alternativa é frequentar ginásios de escalada indoor. Eles oferecem paredes 
+                            artificiais seguras para treinar a força, a técnica e a resistência necessárias antes 
+                            de partir para as rochas naturais no final de semana.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="alert alert-danger">
+            Não esqueça se você está procurando por viagens mais leves verifiquem a classificação da aventura.
+        </div>
+    </div>
+
+    <section class="container text-center my-5">
+        <h2>Bora se aventurar?</h2>
+        <p>Escolha sua próxima aventura.</p>
+        <button class="btn btn-primary btn-lg">
+            Aventure-se aqui
+        </button>
+    </section>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
     </script>
 </body>
