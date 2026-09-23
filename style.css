@@ -11,3 +11,172 @@
 .card:hover {
     transform: translateY(-5px);
 }
+
+.carousel-item img {
+    altura: 500 px ;
+    ajuste ao objeto: capa;
+}
+ 
+.card {
+    altura: 100 % ;
+    transição: 0,3 s ;
+}
+ 
+.card: passar o mouse {
+    transformar: traduzirY (-5 px );
+}
+ 
+/* Caixa principal do Modal */
+ 
+.modal-content {
+    fronteira: nenhuma;
+    raio da borda: 18 px ;
+    overflow: oculto;
+    /* Sombra ao redor da janela */
+    box-shadow: 0 10 px 30 px rgba (0, 0, 0, 0.25);
+}
+ 
+ 
+  /* -----------------------------------------------------
+ 
+     CABEÇALHO DO MODAL
+ 
+  ----------------------------------------------------- */
+ 
+.modal-header {
+    preenchimento: 20 px 25 px ;
+    /* Remove a linha padrão do Bootstrap */
+    borda inferior: nenhuma;
+    cor de fundo: #f8f9fa;
+}
+ 
+  /* Título do Modal */
+ 
+.modal-title {
+    tamanho da fonte: 1,5 rem ;
+    peso da fonte: 700;
+}
+ 
+/* Corpo do Modal */
+ 
+.modal-body {
+    preenchimento: 30 px ;
+    tamanho da fonte: 1 rem ;
+    altura da linha: 1,7;
+  }
+ 
+  /* Imagem dentro do Modal */
+ 
+.modal-body img {
+    largura: 100 % ;
+    raio da borda: 12 px ;
+    margem-inferior: 20 px ;
+}
+ 
+  /* Rodapé do Modal */
+ 
+.modal-footer {
+    preenchimento: 15 px 25 px ;
+    borda superior: nenhuma;
+    cor de fundo: #f8f9fa;
+}
+ 
+  /* Botões do Modal */
+ 
+.modal .btn {
+    raio da borda: 8 px ;
+    preenchimento: 8 px 20 px ;
+}
+ 
+/* -----------------------------------------------------
+ 
+   CAIXA PRINCIPAL
+ 
+   ----------------------------------------------------- */
+ 
+/* Cria uma caixa separada para o Acordeão. O max-width evita que fique muito largo. */
+ 
+.caixa-de-perguntas-frequentes {
+    largura máxima: 850 px ;
+    /* Centraliza a caixa */
+    margem: 0 automático;
+    /* Espaçamento interno */
+    preenchimento: 35 px ;
+    /* Fundo da caixa */
+    cor de fundo: #ffffff;
+    /* Cantos arredondados */
+    raio da borda: 18 px ;
+    /* Borda */
+    borda: 1 px sólida #e9ecef;
+    /* Sombra para criar sensação de elevação */
+    box-shadow: 0 8 px 25 px rgba (0, 0, 0, 0.12);
+}
+ 
+/* -----------------------------------------------------
+ 
+   ÁREA DO ACORDEÃO
+ 
+   ----------------------------------------------------- */
+ 
+.caixa-de-perguntas -frequentes .acordeão {
+  largura: 100 % ;
+}
+ 
+/* -----------------------------------------------------
+ 
+   CADA PERGUNTA
+ 
+   ----------------------------------------------------- */
+ 
+.caixa-de-perguntas -frequentes .item-acordeão {
+  /* Remover uma borda padrão */
+  fronteira: nenhuma;
+  /* Espaço entre as perguntas */
+  margem-inferior: 15 px ;
+  /* Arredonda cada "gaveta" */
+  raio da borda: 12 px ;
+  /* Mantém o conteúdo dentro do arredondamento */
+  overflow: oculto;
+  /* Pequena sombra em cada item */
+  box-shadow: 0 3 px 10 px rgba (0, 0, 0, 0.08);
+}
+ 
+/* EFEITO AO CLICAR */
+ 
+/* Remove o contorno padrão que aparece quando o botão recebe foco. */
+ 
+.faq-box .accordion-button: focus {
+    sombra-da-caixa: nenhuma;
+}
+ 
+  /* ÁREA DA RESPOSTA */
+ 
+.caixa-de-perguntas -frequentes .corpo-do-acordeão {  
+    /* Espaçamento interno maior */
+    preenchimento: 25 px ;
+    /* Espaçamento entre linhas */
+    altura da linha: 1,7;
+    /* Fundo da resposta */
+    cor de fundo: #ffffff;
+}
+ 
+/* BOTÃO DA PERGUNTA */
+ 
+.caixa-de-perguntas -frequentes .botão-acordeão {
+    /* Espaçamento interno */
+    preenchimento: 20 px 22 px ;
+    /* Tamanho do texto */
+    tamanho da fonte: 1 rem ;
+    /* Deixa a pergunta em destaque */
+    peso da fonte: 600;
+    /* Cor de fundo */
+    cor de fundo: #f8f9fa;
+}
+ 
+  /* PERGUNTA ABERTA */
+ 
+.faq-box .accordion-button: not ( .collapsed ) {
+    cor de fundo: #e9ecef;
+    /* Remover sombra */
+    sombra-da-caixa: nenhuma;
+}
